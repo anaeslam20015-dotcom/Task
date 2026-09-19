@@ -1,0 +1,32 @@
+<div class="container my-5">
+  <div class="search">
+    <input
+      type="text"
+      id="sh"
+      #val
+      placeholder="Enter Your Name "
+      class="form-control my-4"
+      (keyup)="Search(val.value)"
+    />
+  </div>
+  <table class="table table-light table-striped table-bordered table-hover w-75">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Duration</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (data of searchName; track data.id) {
+        <tr>
+          <td>{{ data.id }}</td>
+          <td>{{ data.name }}</td>
+          <td>{{ data.salary }} $</td>
+          <td>{{ data.employmentDuration }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+.container h3 {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+.container h3:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+input {
+  box-shadow: 0px 2px 2px 1px black;
+  width: 350px;
+}
+.table {
+  box-shadow: 0px 3px 4px 3px black;
+}

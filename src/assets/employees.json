@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Ali",
+    "salary": 8500,
+    "employmentDuration": "2 years"
+  },
+  {
+    "id": 2,
+    "name": "Mohamed Hassan",
+    "salary": 9200,
+    "employmentDuration": "3 years"
+  },
+  {
+    "id": 3,
+    "name": "Omar Khaled",
+    "salary": 7800,
+    "employmentDuration": "1 year"
+  },
+  {
+    "id": 4,
+    "name": "Mahmoud Samir",
+    "salary": 10500,
+    "employmentDuration": "4 years"
+  },
+  {
+    "id": 5,
+    "name": "Youssef Adel",
+    "salary": 7300,
+    "employmentDuration": "8 months"
+  },
+  {
+    "id": 6,
+    "name": "Mostafa Ibrahim",
+    "salary": 11500,
+    "employmentDuration": "5 years"
+  },
+  {
+    "id": 7,
+    "name": "Eslam Tarek",
+    "salary": 8900,
+    "employmentDuration": "2 years"
+  },
+  {
+    "id": 8,
+    "name": "Karim Ashraf",
+    "salary": 9700,
+    "employmentDuration": "3 years"
+  },
+  {
+    "id": 9,
+    "name": "Amr Mohamed",
+    "salary": 6800,
+    "employmentDuration": "6 months"
+  },
+  {
+    "id": 10,
+    "name": "Hassan Ahmed",
+    "salary": 12500,
+    "employmentDuration": "6 years"
+  },
+  {
+    "id": 11,
+    "name": "Khaled Nabil",
+    "salary": 8100,
+    "employmentDuration": "1 year"
+  },
+  {
+    "id": 12,
+    "name": "Abdelrahman Sameh",
+    "salary": 10200,
+    "employmentDuration": "4 years"
+  },
+  {
+    "id": 13,
+    "name": "Mahmoud Atef",
+    "salary": 7600,
+    "employmentDuration": "10 months"
+  },
+  {
+    "id": 14,
+    "name": "Tarek Mostafa",
+    "salary": 11800,
+    "employmentDuration": "5 years"
+  },
+  {
+    "id": 15,
+    "name": "Omar Ahmed",
+    "salary": 8700,
+    "employmentDuration": "2 years"
+  },
+  {
+    "id": 16,
+    "name": "Yassin Mohamed",
+    "salary": 9900,
+    "employmentDuration": "3 years"
+  },
+  {
+    "id": 17,
+    "name": "Adham Khaled",
+    "salary": 7200,
+    "employmentDuration": "7 months"
+  },
+  {
+    "id": 18,
+    "name": "Seif Adel",
+    "salary": 10800,
+    "employmentDuration": "4 years"
+  },
+  {
+    "id": 19,
+    "name": "Ibrahim Mostafa",
+    "salary": 13500,
+    "employmentDuration": "7 years"
+  },
+  {
+    "id": 20,
+    "name": "Ayman Hassan",
+    "salary": 8300,
+    "employmentDuration": "1 year"
+  },
+  {
+    "id": 21,
+    "name": "Ziad Samir",
+    "salary": 9400,
+    "employmentDuration": "2 years"
+  },
+  {
+    "id": 22,
+    "name": "Mina George",
+    "salary": 8800,
+    "employmentDuration": "2 years"
+  },
+  {
+    "id": 23,
+    "name": "Fady Nabil",
+    "salary": 11200,
+    "employmentDuration": "4 years"
+  },
+  {
+    "id": 24,
+    "name": "Marwan Essam",
+    "salary": 7900,
+    "employmentDuration": "1 year"
+  },
+  {
+    "id": 25,
+    "name": "Yehia Ahmed",
+    "salary": 10100,
+    "employmentDuration": "3 years"
+  }
+]

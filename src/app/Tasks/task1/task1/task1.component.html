@@ -1,0 +1,36 @@
+<div class="container my-4">
+  <h3 class="text-center p-2 w-50 rounded-4">All Movies</h3>
+  <div class="search my-3">
+    <label for="search" class="mb-1">Search : </label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search for a movie..."
+      id="search"
+      #sh
+      (keyup)="Search(sh.value)"
+    />
+  </div>
+  <table class="table table-dark table-striped table-bordered table-hover w-75">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Years</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (movie of getMovies; track movie.id) {
+        <tr>
+          <td>{{ $index + 1 }}</td>
+          <td>
+            {{ movie.title }}
+          </td>
+          <td>{{ movie.year }}</td>
+          <td>{{ movie.genre }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
