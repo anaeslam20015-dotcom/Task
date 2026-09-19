@@ -1,15 +1,21 @@
 <div class="container my-5">
-  <div class="search">
+  <div class="search mb-2">
     <input
       type="text"
       id="sh"
       #val
       placeholder="Enter Your Name "
-      class="form-control my-4"
+      class="form-control"
+      [(ngModel)]="value"
       (keyup)="Search(val.value)"
     />
   </div>
-  <table class="table table-light table-striped table-bordered table-hover w-75">
+  @if (exsist) {
+    <p class="alert alert-danger text-center p-1 w-25">Your Name dont exsist</p>
+  }
+  <table
+    class="table table-light table-striped table-bordered table-hover w-75"
+  >
     <thead>
       <tr>
         <th>ID</th>
