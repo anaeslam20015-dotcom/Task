@@ -6,7 +6,7 @@ import { FormsModule, NgModel } from '@angular/forms';
 @Component({
   selector: 'app-task2',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule,CurrencyPipe],
   templateUrl: './task2.component.html',
   styleUrl: './task2.component.css',
 })
